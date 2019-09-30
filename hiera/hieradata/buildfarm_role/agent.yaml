@@ -1,4 +1,4 @@
-jenkins::slave::executors: 4
+jenkins::slave::executors: 1
 jenkins::slave::labels: buildagent
 jenkins::slave::slave_mode: exclusive
 jenkins::slave::slave_name: agent

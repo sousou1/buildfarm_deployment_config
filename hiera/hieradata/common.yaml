@@ -12,11 +12,11 @@ jenkins::slave::version: *jenkins_swarm_version
 # This should be unchanged so that the masterurl always uses the hosts entry to reach master.
 jenkins::slave::masterurl: 'http://master:8080'
 
-master::ip: 172.30.1.145
-repo::ip: 172.30.1.69
+master::ip: 172.168.0.1
+repo::ip: 172.168.0.2
 
 # change this to match the timezone that this buildfarm is located in.
-timezone: 'America/Los_Angeles'
+timezone: 'Asia/Tokyo'
 
 # SSH keys to be added to each host.
 # The jenkins-agent public key is one you'll want to generate specifically for your deployment.
