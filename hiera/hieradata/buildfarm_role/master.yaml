@@ -70,8 +70,8 @@ jenkins::private_ssh_key: |
 #
 # A GitHub username and token are required.
 # TODO (Steven!) what permissions on the token?
-jenkins::github::username: ros-pull-request-builder
-jenkins::github::token: somegithubtoken
+jenkins::github::username: sousou1
+jenkins::github::token: 15bec09fd360e3584d16bb0a4956ec202c630a66
 #
 # default value of https://api.github.com can be overridden for GitHub Enterprise.
 # jenkins::github::api_url: 'https://api.github.com'
