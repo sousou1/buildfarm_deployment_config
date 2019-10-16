@@ -46,6 +46,7 @@ ssh_keys:
       type: ssh-rsa
       key: AAAAB3NzaC1yc2EAAAADAQABAAACAQCYnU6yEtz1cFOovXVCCjEin07Z4iXRjD6Pj/C1iIaT8QwSRaP0UaCQeXuJwv14WztSqzHk9MatTHmW0y6dMtYLRFJPKbtZ6ijeRO5fpU5K7OkK+Ux/DRMeMUbDYfYbQ2FZktfjICQicRZCFtc7x7cnrZQB7LZmaljCzSVcJB2VXyW17+dn4K2XAXMebBZKMUWhRcusPjHStc6QDYVTNLKgMAgVlKTIHNgMILO49DRly5bNXyi28GFZi1K0CAl9MRl39U7uB5WiKp0c/2VFkMMY/9tNmMuR5bXKCgWDVtV78v87Krc/mSrPNkjt3Xutr/vlVELxHKYREyU4EBsJEzkxOP5D7zUQtqNfoNnpBtBj5PvXNph5y0k2oaVdwEs98zOI2FttmqTZA0sl3pEBmJWvrwJpEpxKuhnoEUlgqtTSzD8AnCQSAN6y9TH4OFJf0Slw8a1T49ZammmoCl+TTh4ZED05TUAFcpjmRwtTbEb+RTiq69BboEUaUC43uuBUH50c0U778ITf7XvVhZzzY3T1/HnARtY/rcYyRzHqe7utpXXp+qs15SZ3MRNj7oEuaLo59tbnew8sIjSLxzEPgmjH4ElqJkR6ORdjhq3+RR/HreNdYv94M4bxBbLjvExafUvPULy5hs4hjVdpQrRhGu3nmXfDcM+ln5lc9KNsfwfY8w==
       user: jenkins-agent
+      require: User[jenkins-agent]
     ## If you wish to add keys for administrative access you can do so as well.
     ## Additional keys will not be accessible to jenkins agents without additional configuraiton.
     #'adminuser@my-buildfarm':
@@ -62,7 +63,7 @@ ssh_keys:
 #     ssh repo -T cat /etc/ssh/ssh_host_ed25519_key.pub
 # will print your ed25519 host key which you can paste below
 ssh_host_keys:
-  repo: root ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBZB6jba38FIcc0OF1ivzB0q3QWJGOBfEL9kKHwFam+9
+  repo: repo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBZB6jba38FIcc0OF1ivzB0q3QWJGOBfEL9kKHwFam+9
 
 # if `autoreconfigure` is true this will set a cron task to re-run puppet periodically.
 # Do not autoreconfigure your master machine during normal running, doing so will overwrite
