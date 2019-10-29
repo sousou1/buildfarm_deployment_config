@@ -13,7 +13,7 @@ jenkins::slave::version: *jenkins_swarm_version
 jenkins::slave::masterurl: 'http://172.168.0.1:8080'
 
 master::ip: 172.168.0.1
-repo::ip: 172.168.0.2
+repo::ip: 172.168.0.3
 
 # change this to match the timezone that this buildfarm is located in.
 timezone: 'Asia/Tokyo'
