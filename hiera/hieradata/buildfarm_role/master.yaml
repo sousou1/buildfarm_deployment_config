@@ -30,33 +30,33 @@ jenkins::slave::slave_mode: exclusive
 jenkins::slave::slave_name: agent_on_master
 
 jenkins::private_ssh_key: |
------BEGIN RSA PRIVATE KEY-----
-MIIEpgIBAAKCAQEAqvFGP0RbSxPWXHGPhjDKhYoA+c15db2bVIkBzuVP4w0VNqu7
-nQrzZbExhKwcpnAkeVYP5Y6OFzYNmh8y/m99NR48IPEhsvWba9Z9ly3ODG0bNu90
-8rYmIzvyogHtkkn0loDxfpa1xtm2T9fFbs1dQqQAQHAorUQG+XVc5hBUuaOC8ROm
-+zkM2Xav99KVMv0Hd66oetIAlakGXxN+NLbQ16uGcbxfksgJdX85RsbNrxEY1cmU
-zbwZfIRySt02t0xcIJ0/8cNzWhT0LBK+g3VB1pkh+uy28hZ18gzWjfbV07K2sAWd
-uITswU/skhGSYhmLdAbOot3XCDYJb48opa93kQIDAQABAoIBAQCAgT6Qwx9qMjB8
-cDY356fneZZANBIxy+bgRtqgIUzL4ALphXJVnWzaLrmOBiDHkhgpSuRKar8wfcb9
-7KRWF5PlgaQsE3mE4hQDnkvtgVabis3hn2OoLfw/kopU9eQVjBkdpzNkOYHPSc0+
-+nMGV8XbGhTCXE6H6lLf5zV+EhrPLfyuZ9dJk5DxNVMzRHgPIZQLbSaBo2LbrqoD
-1srbdTU5P4yYD7vr4eOD/PxX4vlNB31rGXtcb0aI8SJNTWTOh0Bl6jHPfFXJvb5C
-CpIy+DoS9NaZ7EzUiju5LNvH6VJkww38yHsSmc/oIqdrczTL2BRklRnnfZ2mFg4V
-lZx+s1TdAoGBANoi36wD8qGmnFkIBnANzXIOOMag+xmVoTB5iERDqIPmg70Bb0ee
-OPNLwtqW4zqk951aHB7+6H65oZM5a+EjlDs8L41K1pa7dHFph72CrDFxGJDnute0
-PcejIvAfFPIv1ULKDArt1ZjRbYf0hciqFjzaiePsmw8fAB+Xz9pT3RAjAoGBAMid
-Sz7GGrtXJuiHzYqKUih4CjkXM6AiYo/1bffe9mJbuEMdRmKpqDPsE0zYFGmJnrcV
-2+lfDbQAz45P5aprrAmQ2E3VElx19Cn9VVomqyOYbNl5e2eHGLjurBosMwaiytS4
-MwiRXdAVmGQy/XFQ5TxLkZhYI8ueDf2HGq4mrHq7AoGBAI/2PA/WeybcQosvlLAX
-K+N+J1JPo+h6q+rGCnyi+nAyjfcLH1nwvj0zXuHMeyKVBSY/9hcuvFoGQPBdESmA
-xa9iRS/GmGDaTjsbHo6f0uy+aywXA2Sge7VpoQFAQh6kGub9WX1NAY7diKAVbMXG
-Gu8Ge8KEwMD2AKrZEkBQ4LBpAoGBALxS/Jn3Ooz3KW1MXuVZJ/sZhO9HGo2O+duO
-WCdCRSTcWUOXrcVc4qurSArxJWhVaosQmBqhwqlhwXYlBsJOxXdNY+DczpnBmO36
-BS/V8P4/Tp9w7SmopsqkMyd2qofmNmYubKn0XI7EVwRo4YaInElX31uWEjRJMXT4
-aVFmuK+VAoGBAIih11w/3WqY1KBzEQHHe7oq7kC/U6ypPC/mQ9k5MtF4mlSS57Zz
-Rg0jSAhnPjB0pEitEJNzorQacKk12wibh2pA3nnULMvQO8s9ZLlvjGgg95ZUnlan
-c9Z4wh1uzyGMrnG6rWij4lMqbW6cn5laDWQf8E9EDtQgfAmfI7viz/1q
------END RSA PRIVATE KEY-----
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpgIBAAKCAQEAqvFGP0RbSxPWXHGPhjDKhYoA+c15db2bVIkBzuVP4w0VNqu7
+    nQrzZbExhKwcpnAkeVYP5Y6OFzYNmh8y/m99NR48IPEhsvWba9Z9ly3ODG0bNu90
+    8rYmIzvyogHtkkn0loDxfpa1xtm2T9fFbs1dQqQAQHAorUQG+XVc5hBUuaOC8ROm
+    +zkM2Xav99KVMv0Hd66oetIAlakGXxN+NLbQ16uGcbxfksgJdX85RsbNrxEY1cmU
+    zbwZfIRySt02t0xcIJ0/8cNzWhT0LBK+g3VB1pkh+uy28hZ18gzWjfbV07K2sAWd
+    uITswU/skhGSYhmLdAbOot3XCDYJb48opa93kQIDAQABAoIBAQCAgT6Qwx9qMjB8
+    cDY356fneZZANBIxy+bgRtqgIUzL4ALphXJVnWzaLrmOBiDHkhgpSuRKar8wfcb9
+    7KRWF5PlgaQsE3mE4hQDnkvtgVabis3hn2OoLfw/kopU9eQVjBkdpzNkOYHPSc0+
+    +nMGV8XbGhTCXE6H6lLf5zV+EhrPLfyuZ9dJk5DxNVMzRHgPIZQLbSaBo2LbrqoD
+    1srbdTU5P4yYD7vr4eOD/PxX4vlNB31rGXtcb0aI8SJNTWTOh0Bl6jHPfFXJvb5C
+    CpIy+DoS9NaZ7EzUiju5LNvH6VJkww38yHsSmc/oIqdrczTL2BRklRnnfZ2mFg4V
+    lZx+s1TdAoGBANoi36wD8qGmnFkIBnANzXIOOMag+xmVoTB5iERDqIPmg70Bb0ee
+    OPNLwtqW4zqk951aHB7+6H65oZM5a+EjlDs8L41K1pa7dHFph72CrDFxGJDnute0
+    PcejIvAfFPIv1ULKDArt1ZjRbYf0hciqFjzaiePsmw8fAB+Xz9pT3RAjAoGBAMid
+    Sz7GGrtXJuiHzYqKUih4CjkXM6AiYo/1bffe9mJbuEMdRmKpqDPsE0zYFGmJnrcV
+    2+lfDbQAz45P5aprrAmQ2E3VElx19Cn9VVomqyOYbNl5e2eHGLjurBosMwaiytS4
+    MwiRXdAVmGQy/XFQ5TxLkZhYI8ueDf2HGq4mrHq7AoGBAI/2PA/WeybcQosvlLAX
+    K+N+J1JPo+h6q+rGCnyi+nAyjfcLH1nwvj0zXuHMeyKVBSY/9hcuvFoGQPBdESmA
+    xa9iRS/GmGDaTjsbHo6f0uy+aywXA2Sge7VpoQFAQh6kGub9WX1NAY7diKAVbMXG
+    Gu8Ge8KEwMD2AKrZEkBQ4LBpAoGBALxS/Jn3Ooz3KW1MXuVZJ/sZhO9HGo2O+duO
+    WCdCRSTcWUOXrcVc4qurSArxJWhVaosQmBqhwqlhwXYlBsJOxXdNY+DczpnBmO36
+    BS/V8P4/Tp9w7SmopsqkMyd2qofmNmYubKn0XI7EVwRo4YaInElX31uWEjRJMXT4
+    aVFmuK+VAoGBAIih11w/3WqY1KBzEQHHe7oq7kC/U6ypPC/mQ9k5MtF4mlSS57Zz
+    Rg0jSAhnPjB0pEitEJNzorQacKk12wibh2pA3nnULMvQO8s9ZLlvjGgg95ZUnlan
+    c9Z4wh1uzyGMrnG6rWij4lMqbW6cn5laDWQf8E9EDtQgfAmfI7viz/1q
+    -----END RSA PRIVATE KEY-----
 
 # Optional customization urls for uploading docs.
 # These should match the credentials in the ros_buildfarm_config doc-build.yaml.
